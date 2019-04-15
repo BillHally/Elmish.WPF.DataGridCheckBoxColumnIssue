@@ -1,0 +1,24 @@
+group Latest
+    source https://www.nuget.org/api/v2
+
+    storage: symlink
+    framework: net471
+
+    nuget Elmish 3.0.0-beta-7
+    nuget Elmish.WPF 2.0.0-beta-9
+        
+group Fix
+    source https://www.nuget.org/api/v2
+
+    storage: symlink
+    framework: net471
+
+    nuget Elmish 3.0.0-beta-7
+
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/Utils.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/Types.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/Config.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/Binding.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/ViewModel.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/ViewModelUtilities.fs
+    github BillHally/Elmish.WPF:make-TrySetMember-return-true src/Elmish.WPF/Program.fs

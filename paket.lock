@@ -1,0 +1,30 @@
+
+
+GROUP Fix
+STORAGE: SYMLINK
+RESTRICTION: == net471
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Elmish (3.0.0-beta-7)
+      FSharp.Core (>= 4.6.2)
+    FSharp.Core (4.6.2)
+GITHUB
+  remote: BillHally/Elmish.WPF
+    src/Elmish.WPF/Binding.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/Config.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/Program.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/Types.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/Utils.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/ViewModel.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+    src/Elmish.WPF/ViewModelUtilities.fs (db90171bb71328ca80bb02afcd54b53298c8ecdc)
+GROUP Latest
+STORAGE: SYMLINK
+RESTRICTION: == net471
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Elmish (3.0.0-beta-7)
+      FSharp.Core (>= 4.6.2)
+    Elmish.WPF (2.0.0-beta-9)
+      Elmish (>= 3.0.0-beta-7)
+      FSharp.Core (>= 4.6.2)
+    FSharp.Core (4.6.2)
